@@ -10,8 +10,10 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #FFFFFF;
+  /* font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif, "Montserrat"; */
+  font-family: "Amiko", "Montserrat", "Helvetica";
+
+  color: #212529;
 }
 
 /**
@@ -19,7 +21,7 @@ body {
  */
 a {
   font-weight: normal;
-  text-decoration: none; 
+  text-decoration: none;
   color:#EF6D3D;
 }
 a:focus {
@@ -83,7 +85,7 @@ blockquote {
   font-size:1.8rem;
 }
 blockquote p:last-child {
-  margin-bottom: 0;  
+  margin-bottom: 0;
 }
 
 /**
@@ -93,17 +95,17 @@ blockquote p:last-child {
 /* Full size background image */
 html, #container, .inner { background-color:transparent;}
 html {
-  background:url(background.jpg) center center no-repeat fixed;
+  background: #F8F9FA center center no-repeat fixed;
   background-size:cover;
 }
 body {
   max-width:800px;
   margin:25px auto;
 }
-header, #content, footer { 
-  background: rgba(0,0,0,.8); 
+header, #content, footer {
+  background: #E9ECEF;
   padding:25px;
-  color:#FFFFFF; 
+  color:#212529;
 }
 
 /* Menu Links */
@@ -119,13 +121,13 @@ ul.main-menu li a {
   margin-right:20px;
   font-size:2.0rem;
   border-bottom: solid transparent 3px;
-  color:#cfd2da;
+  color:#495057;
 }
 ul.main-menu li a:hover {
   color:#FFFFFF;
 }
 ul.main-menu li a.active {
-  color:#FFFFFF;
+  color:#212529;
   border-bottom-color:#EF6D3D;
 }
 
@@ -136,6 +138,3 @@ ul.main-menu li a.active {
 .show {
   display:block;
 }
-
-
-
